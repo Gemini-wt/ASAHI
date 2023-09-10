@@ -57,11 +57,6 @@ python test.py
 <img width="700"  src="https://github.com/Gemini-wt/ASAHI/blob/6e315492129022d1271910bf391f147ab1095dca/show/5555.png">
 <img width="700"  src="https://github.com/Gemini-wt/ASAHI/blob/c5468c44d4255f90def092158f15a8cbb6f2eb76/show/xview%400.5x.png">
 
-### Other utilities
-
-Find detailed info on COCO utilities (yolov5 conversion, slicing, subsampling, filtering, merging, splitting) at [coco.md](docs/coco.md).
-
-Find detailed info on MOT utilities (ground truth dataset creation, exporting tracker metrics in mot challenge format) at [mot.md](docs/mot.md).
 
 ## <div align="center">Citation</div>
 
