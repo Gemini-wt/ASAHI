@@ -8,12 +8,8 @@
     <img width="700" alt="teaser" src="https://raw.githubusercontent.com/obss/sahi/main/resources/sliced_inference.gif">
 </h4>
 
-<div>
-    <a href="https://www.mdpi.com/2072-4292/15/5/1249#metrics"><img src="https://pepy.tech/badge/sahi" alt="paper"></a>
-    <a href="https://www.mdpi.com/2072-4292/15/5/1249/pdf?version=1677547894"><img src="https://pepy.tech/badge/sahi/month" alt="downloads"></a>
-    <a href="https://doi.org/10.48550/arXiv.2202.06934"><img src="https://img.shields.io/badge/arXiv-2202.06934-b31b1b.svg" alt="ci"></a>
-    <br>   
-</div>
+[![Paper](https://img.shields.io/badge/Paper-arxiv-white)](https://www.mdpi.com/2072-4292/15/5/1249/pdf?version=1677547894)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 </div>
 
 ## <div align="center">Overview</div>
