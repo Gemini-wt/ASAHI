@@ -168,7 +168,7 @@ Find detailed info on MOT utilities (ground truth dataset creation, exporting tr
 ## <div align="center">Citation</div>
 
 If you use this package in your work, please cite it as:
-
+```
 @article{Zhang2023AdaptiveSH,
   title={Adaptive Slicing-Aided Hyper Inference for Small Object Detection in High-Resolution Remote Sensing Images},
   author={Hao Zhang and Chuanyan Hao and Wanru Song and Bo Jiang and Baozhu Li},
@@ -178,7 +178,7 @@ If you use this package in your work, please cite it as:
   pages={1249},
   url={https://api.semanticscholar.org/CorpusID:257247854}
 }
-
+```
 
 
 
