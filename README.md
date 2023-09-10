@@ -32,71 +32,24 @@ From pip:
 ```
 pip install -r requrirements.txt
 pip install opencv-python==4.6.0.66
+pip install torch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1
 ```
 
-
-<details closed>
-<summary>
-<big><b>Installation details:</b></big>
-</summary>
-
-- Install `sahi` using pip:
-
-```console
-pip install sahi
+From conda:
+```
+conda install opencv-python==4.6.0.66
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
 ```
 
-- On Windows, `Shapely` needs to be installed via Conda:
-
-```console
-conda install -c conda-forge shapely
-```
-
-- Install your desired version of pytorch and torchvision:
-
-```console
-conda install pytorch=1.10.2 torchvision=0.11.3 cudatoolkit=11.3 -c pytorch
-```
-  
-- Install your desired detection framework (yolov5):
-
-```console
-pip install yolov5==6.1.3
-```
-
-- Install your desired detection framework (mmdet):
-
-```console
-pip install mmcv-full==1.5.3 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.10.0/index.html
-```
-
-```console
-pip install mmdet==2.25.0
-```
-
-- Install your desired detection framework (detectron2):
-
-```console
-pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
-```
-
-- Install your desired detection framework (huggingface):
-
-```console
-pip install transformers timm
-```
-
-</details>
 
 ### Framework Agnostic Sliced/Standard Prediction
+```
+Test:
+python test.py
+```
 
-<img width="700" alt="sahi-predict" src="https://user-images.githubusercontent.com/34196005/149310540-e32f504c-6c9e-4691-8afd-59f3a1a457f0.gif">
 
-Find detailed info on `sahi predict` command at [cli.md](docs/cli.md#predict-command-usage).
 
-Find detailed info on video inference at [video inference tutorial](https://github.com/obss/sahi/issues/457).
-
-Find detailed info on image/dataset slicing utilities at [slicing.md](docs/slicing.md).
 
 ### Error Analysis Plots & Evaluation
 
