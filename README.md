@@ -1,11 +1,8 @@
 <div align="center">
 <h1>
-  SAHI: Slicing Aided Hyper Inference
+  ASAHI: Adaptive Slicing-Aided Hyper Inference for Small Object Detection in High-Resolution Remote Sensing Images
 </h1>
 
-<h4>
-  A lightweight vision library for performing large scale object detection & instance segmentation
-</h4>
 
 <h4>
     <img width="700" alt="teaser" src="https://raw.githubusercontent.com/obss/sahi/main/resources/sliced_inference.gif">
@@ -172,74 +169,16 @@ Find detailed info on MOT utilities (ground truth dataset creation, exporting tr
 
 If you use this package in your work, please cite it as:
 
-```
-@article{akyon2022sahi,
-  title={Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection},
-  author={Akyon, Fatih Cagatay and Altinuc, Sinan Onur and Temizel, Alptekin},
-  journal={arXiv preprint arXiv:2202.06934},
-  year={2022}
+@article{Zhang2023AdaptiveSH,
+  title={Adaptive Slicing-Aided Hyper Inference for Small Object Detection in High-Resolution Remote Sensing Images},
+  author={Hao Zhang and Chuanyan Hao and Wanru Song and Bo Jiang and Baozhu Li},
+  journal={Remote. Sens.},
+  year={2023},
+  volume={15},
+  pages={1249},
+  url={https://api.semanticscholar.org/CorpusID:257247854}
 }
-```
 
-```
-@software{obss2021sahi,
-  author       = {Akyon, Fatih Cagatay and Cengiz, Cemil and Altinuc, Sinan Onur and Cavusoglu, Devrim and Sahin, Kadir and Eryuksel, Ogulcan},
-  title        = {{SAHI: A lightweight vision library for performing large scale object detection and instance segmentation}},
-  month        = nov,
-  year         = 2021,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.5718950},
-  url          = {https://doi.org/10.5281/zenodo.5718950}
-}
-```
 
-## <div align="center">Contributing</div>
 
-`sahi` library currently supports all [YOLOv5 models](https://github.com/ultralytics/yolov5/releases), [MMDetection models](https://github.com/open-mmlab/mmdetection/blob/master/docs/model_zoo.md), [Detectron2 models](https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md), and [HuggingFace object detection models](https://huggingface.co/models?pipeline_tag=object-detection&sort=downloads). Moreover, it is easy to add new frameworks.
 
-All you need to do is, creating a new class in [model.py](sahi/model.py) that implements [DetectionModel class](https://github.com/obss/sahi/blob/21ecb285aa6bf93c2a00605dfb9b138f19d8d62d/sahi/model.py#L21). You can take the [MMDetection wrapper](https://github.com/obss/sahi/blob/21ecb285aa6bf93c2a00605dfb9b138f19d8d62d/sahi/model.py#L177) or [YOLOv5 wrapper](https://github.com/obss/sahi/blob/21ecb285aa6bf93c2a00605dfb9b138f19d8d62d/sahi/model.py#L388) as a reference.
-
-Before opening a PR:
-
-- Install required development packages:
-
-```bash
-pip install -e ."[dev]"
-```
-
-- Reformat with black and isort:
-
-```bash
-black . --config pyproject.toml
-isort .
-```
-
-## <div align="center">Contributors</div>
-
-<div align="center">
-
-<a align="left" href="https://github.com/fcakyon" target="_blank">Fatih Cagatay Akyon</a>
-
-<a align="left" href="https://github.com/sinanonur" target="_blank">Sinan Onur Altinuc</a>
-
-<a align="left" href="https://github.com/devrimcavusoglu" target="_blank">Devrim Cavusoglu</a>
-
-<a align="left" href="https://github.com/cemilcengiz" target="_blank">Cemil Cengiz</a>
-
-<a align="left" href="https://github.com/oulcan" target="_blank">Ogulcan Eryuksel</a>
-
-<a align="left" href="https://github.com/kadirnar" target="_blank">Kadir Nar</a>
-
-<a align="left" href="https://github.com/madenburak" target="_blank">Burak Maden</a>
-  
-<a align="left" href="https://github.com/PushpakBhoge" target="_blank">Pushpak Bhoge</a>
-  
-<a align="left" href="https://github.com/mecevit" target="_blank">Mehmet Ecevit</a>
-
-<a align="left" href="https://github.com/ssahinnkadir" target="_blank">Kadir Sahin</a>
-  
-<a align="left" href="https://github.com/weypro" target="_blank">Wey</a>
-
-<a align="left" href="https://github.com/weiji14" target="_blank">Wei Ji</a>
-
-</div>
