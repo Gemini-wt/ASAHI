@@ -9,18 +9,10 @@
 </h4>
 
 <div>
-    <a href="https://pepy.tech/project/sahi"><img src="https://pepy.tech/badge/sahi" alt="downloads"></a>
-    <a href="https://pepy.tech/project/sahi"><img src="https://pepy.tech/badge/sahi/month" alt="downloads"></a>
+    <a href="https://www.mdpi.com/2072-4292/15/5/1249#metrics"><img src="https://pepy.tech/badge/sahi" alt="paper"></a>
+    <a href="https://www.mdpi.com/2072-4292/15/5/1249/pdf?version=1677547894"><img src="https://pepy.tech/badge/sahi/month" alt="downloads"></a>
     <a href="https://doi.org/10.48550/arXiv.2202.06934"><img src="https://img.shields.io/badge/arXiv-2202.06934-b31b1b.svg" alt="ci"></a>
-    <br>
-    <a href="https://badge.fury.io/py/sahi"><img src="https://badge.fury.io/py/sahi.svg" alt="pypi version"></a>
-    <a href="https://anaconda.org/conda-forge/sahi"><img src="https://anaconda.org/conda-forge/sahi/badges/version.svg" alt="conda version"></a>
-    <a href="https://github.com/obss/sahi/actions?query=event%3Apush+branch%3Amain+is%3Acompleted+workflow%3ACI"><img src="https://github.com/obss/sahi/workflows/CI/badge.svg" alt="ci"></a>
-    <br>
-    <a href="https://colab.research.google.com/github/obss/sahi/blob/main/demo/inference_for_yolov5.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
-    <a href="https://huggingface.co/spaces/fcakyon/sahi-yolox"><img src="https://raw.githubusercontent.com/obss/sahi/main/resources/hf_spaces_badge.svg" alt="HuggingFace Spaces"></a>
-    <br>
-    
+    <br>   
 </div>
 </div>
 
